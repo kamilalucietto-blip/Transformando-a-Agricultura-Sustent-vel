@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Sustentável</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones modernos (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">AgroSustentável</div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cards">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#estatisticas">Estatísticas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section id="banner">
+        <div class="banner-content">
+            <h1>Transformando a Agricultura Sustentável</h1>
+            <p>Tecnologia e práticas modernas para um futuro mais verde.</p>
+            <a href="#sobre" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <!-- Sobre Agricultura -->
+    <section id="sobre" class="container section">
+        <h2>Sobre a Agricultura</h2>
+        <p>A agricultura moderna busca unir tecnologia e sustentabilidade, garantindo produtividade e preservação ambiental. O uso inteligente de recursos e técnicas inovadoras são essenciais para o futuro do campo.</p>
+    </section>
+
+    <!-- Cards de Serviços -->
+    <section id="cards" class="container section">
+        <h2>Nossos Serviços</h2>
+        <div class="card-grid">
+            <div class="card">
+                <i class="fas fa-seedling fa-3x"></i>
+                <h3>Plantio Inteligente</h3>
+                <p>Monitoramento e técnicas avançadas para um plantio mais eficiente.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-water fa-3x"></i>
+                <h3>Irrigação</h3>
+                <p>Sistemas modernos de irrigação que economizam água e aumentam produtividade.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-recycle fa-3x"></i>
+                <h3>Sustentabilidade</h3>
+                <p>Práticas que preservam o solo e promovem o equilíbrio ambiental.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-tractor fa-3x"></i>
+                <h3>Tecnologia no Campo</h3>
+                <p>Tratores e máquinas inteligentes para um trabalho mais eficiente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de imagens -->
+    <section id="galeria" class="container section">
+        <h2>Galeria</h2>
+        <div class="gallery-grid">
+            <img src="https://source.unsplash.com/400x300/?farm,tractor" alt="Campo 1">
+            <img src="https://source.unsplash.com/400x300/?farm,crops" alt="Campo 2">
+            <img src="https://source.unsplash.com/400x300/?farm,plants" alt="Campo 3">
+            <img src="https://source.unsplash.com/400x300/?farm,field" alt="Campo 4">
+        </div>
+    </section>
+
+    <!-- Estatísticas animadas -->
+    <section id="estatisticas" class="container section stats-section">
+        <h2>Estatísticas do Campo</h2>
+        <div class="stats-grid">
+            <div class="stat">
+                <h3 class="counter" data-target="5000">0</h3>
+                <p>Hectares cultivados</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter" data-target="120">0</h3>
+                <p>Produtores parceiros</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter" data-target="95">0</h3>
+                <p>% Agricultura sustentável</p>
+            </div>
+            <div class="stat">
+                <h3 class="counter" data-target="50">0</h3>
+                <p>Projetos tecnológicos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de contato -->
+    <section id="contato" class="container section">
+        <h2>Contato</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Botão voltar ao topo -->
+    <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2026 AgroSustentável. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
